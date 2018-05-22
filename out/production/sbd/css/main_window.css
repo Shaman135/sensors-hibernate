@@ -1,0 +1,114 @@
+/* color picker: https://goo.gl/j29RHA */
+
+.root {
+    -fx-background-color: #5D6EFF;
+}
+
+.my_button {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: #F5CD41;
+    -fx-pref-width: 200;
+    -fx-text-fill: BLACK;
+}
+
+.dialog_label {
+    -fx-text-fill: BLACK;
+}
+
+.my_dialog {
+
+}
+
+.tab-header-background {
+    -fx-background-color: #1D2DB2;
+}
+
+.tab-label {
+    -fx-font-weight: normal;
+}
+
+.mylistview .list-cell:selected{
+    -fx-background-color: #5D6EFF;
+}
+
+.mylistview {
+    -fx-border-color: #5D6EFF;
+}
+
+.my_hbox {
+    -fx-background-color: #4357FF;
+}
+
+.my_vbox {
+    -fx-background-color: #DBBF5B;
+}
+
+.add_button {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: #F5CD41;
+    -fx-text-fill: BLACK;
+    -fx-background-radius: 5em;
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-max-width: 48px;
+    -fx-max-height: 48px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('./ic_add_black_24dp_1x.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.remove_button {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: #F5CD41;
+    -fx-text-fill: BLACK;
+    -fx-background-radius: 5em;
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-max-width: 48px;
+    -fx-max-height: 48px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('./ic_delete_forever_black_24dp_1x.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.edit_button {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: #F5CD41;
+    -fx-text-fill: BLACK;
+    -fx-background-radius: 5em;
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-max-width: 48px;
+    -fx-max-height: 48px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('./ic_edit_black_24dp_1x.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+
+}
+
+.db_search_label {
+    -fx-font-size: 14px;
+    -fx-text-fill: WHITE;
+}
+
+.my-text-field {
+    -fx-text-fill: WHITE;
+    -jfx-unfocus-color: WHITE;
+    -jfx-focus-color: WHITE;
+    -jfx-label-float: true;
+    -fx-prompt-text-fill: WHITE;
+}
+
+
+

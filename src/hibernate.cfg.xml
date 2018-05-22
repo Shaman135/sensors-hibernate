@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/sbd</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <mapping class="database.entities.AdministrationEntity"/>
+        <mapping class="database.entities.AdministrationEmployeeEntity"/>
+        <mapping class="database.entities.BuildingEntity"/>
+        <mapping class="database.entities.ClientEntity"/>
+        <mapping class="database.entities.ContractEntity"/>
+        <mapping class="database.entities.DataRecordEntity"/>
+        <mapping class="database.entities.RoomEntity"/>
+        <mapping class="database.entities.SensorEntity"/>
+        <mapping class="database.entities.ServerEntity"/>
+        <mapping class="database.entities.SubcontractorEntity"/>
+
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
